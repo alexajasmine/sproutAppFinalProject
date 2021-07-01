@@ -19,6 +19,9 @@
 		A89FEF72268BBF7B009DF11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89FEF70268BBF7B009DF11B /* LaunchScreen.storyboard */; };
 		A89FEF7D268BBF7B009DF11B /* sproutAppFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF7C268BBF7B009DF11B /* sproutAppFinalProjectTests.swift */; };
 		A89FEF88268BBF7B009DF11B /* sproutAppFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF87268BBF7B009DF11B /* sproutAppFinalProjectUITests.swift */; };
+		A89FF050268E459E009DF11B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF04F268E459E009DF11B /* SideMenuViewController.swift */; };
+		A89FF052268E45B0009DF11B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF051268E45B0009DF11B /* MainViewController.swift */; };
+		A89FF058268E5E27009DF11B /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF057268E5E27009DF11B /* menuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		A89FEF83268BBF7B009DF11B /* sproutAppFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sproutAppFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89FEF87268BBF7B009DF11B /* sproutAppFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sproutAppFinalProjectUITests.swift; sourceTree = "<group>"; };
 		A89FEF89268BBF7B009DF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89FF04F268E459E009DF11B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		A89FF051268E45B0009DF11B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A89FF057268E5E27009DF11B /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */,
 				A89FEF66268BBF7A009DF11B /* ViewController.swift */,
 				A89FEF68268BBF7A009DF11B /* Main.storyboard */,
+				A89FF057268E5E27009DF11B /* menuTableViewCell.swift */,
+				A89FF04F268E459E009DF11B /* SideMenuViewController.swift */,
+				A89FF051268E45B0009DF11B /* MainViewController.swift */,
 				8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */,
 				8F30AB43268CE0C00058ECC2 /* UserProfile.swift */,
 				8F30AB41268CDEB80058ECC2 /* EnterNameViewController.swift */,
@@ -270,11 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89FF050268E459E009DF11B /* SideMenuViewController.swift in Sources */,
 				A89FEF67268BBF7A009DF11B /* ViewController.swift in Sources */,
+				A89FF058268E5E27009DF11B /* menuTableViewCell.swift in Sources */,
 				A89FEF6D268BBF7A009DF11B /* sproutAppFinalProject.xcdatamodeld in Sources */,
 				A89FEF63268BBF7A009DF11B /* AppDelegate.swift in Sources */,
 				8F30AB46268CE0FC0058ECC2 /* TimerViewController.swift in Sources */,
 				8F30AB44268CE0C00058ECC2 /* UserProfile.swift in Sources */,
+				A89FF052268E45B0009DF11B /* MainViewController.swift in Sources */,
 				8F30AB42268CDEB80058ECC2 /* EnterNameViewController.swift in Sources */,
 				A89FEF65268BBF7A009DF11B /* SceneDelegate.swift in Sources */,
 			);
