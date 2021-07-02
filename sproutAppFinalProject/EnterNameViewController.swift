@@ -29,7 +29,7 @@ class EnterNameViewController: UIViewController {
                 hiNameLabel.text = "Welcome, \(welcomeText), to SPROUT🌱"
                 hiNameLabel.isHidden = false
                 nextButton.isHidden = false
-                let profile = UserProfile(username : welcomeText)
+                username = welcomeText
             }
         }
     }

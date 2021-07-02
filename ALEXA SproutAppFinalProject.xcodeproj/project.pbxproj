@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8F30AB42268CDEB80058ECC2 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30AB41268CDEB80058ECC2 /* EnterNameViewController.swift */; };
-		8F30AB44268CE0C00058ECC2 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30AB43268CE0C00058ECC2 /* UserProfile.swift */; };
+		8F30AB44268CE0C00058ECC2 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30AB43268CE0C00058ECC2 /* GlobalVariables.swift */; };
 		8F30AB46268CE0FC0058ECC2 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */; };
+		8FA7AF93268EB8D400DBE72C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA7AF92268EB8D400DBE72C /* MainScreenViewController.swift */; };
 		A89FEF63268BBF7A009DF11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF62268BBF7A009DF11B /* AppDelegate.swift */; };
 		A89FEF65268BBF7A009DF11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */; };
 		A89FEF67268BBF7A009DF11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF66268BBF7A009DF11B /* ViewController.swift */; };
@@ -43,9 +44,10 @@
 
 /* Begin PBXFileReference section */
 		8F30AB41268CDEB80058ECC2 /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
-		8F30AB43268CE0C00058ECC2 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		8F30AB43268CE0C00058ECC2 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		A89FEF5F268BBF7A009DF11B /* sproutAppFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sproutAppFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA7AF92268EB8D400DBE72C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		A89FEF5F268BBF7A009DF11B /* ALEXA SproutAppFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALEXA SproutAppFinalProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89FEF62268BBF7A009DF11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A89FEF66268BBF7A009DF11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,10 +56,10 @@
 		A89FEF6E268BBF7B009DF11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A89FEF71268BBF7B009DF11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A89FEF73268BBF7B009DF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A89FEF78268BBF7B009DF11B /* sproutAppFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sproutAppFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89FEF78268BBF7B009DF11B /* ALEXA SproutAppFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALEXA SproutAppFinalProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89FEF7C268BBF7B009DF11B /* sproutAppFinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sproutAppFinalProjectTests.swift; sourceTree = "<group>"; };
 		A89FEF7E268BBF7B009DF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A89FEF83268BBF7B009DF11B /* sproutAppFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sproutAppFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89FEF83268BBF7B009DF11B /* ALEXA SproutAppFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALEXA SproutAppFinalProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89FEF87268BBF7B009DF11B /* sproutAppFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sproutAppFinalProjectUITests.swift; sourceTree = "<group>"; };
 		A89FEF89268BBF7B009DF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89FF04F268E459E009DF11B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
@@ -103,9 +105,9 @@
 		A89FEF60268BBF7A009DF11B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A89FEF5F268BBF7A009DF11B /* sproutAppFinalProject.app */,
-				A89FEF78268BBF7B009DF11B /* sproutAppFinalProjectTests.xctest */,
-				A89FEF83268BBF7B009DF11B /* sproutAppFinalProjectUITests.xctest */,
+				A89FEF5F268BBF7A009DF11B /* ALEXA SproutAppFinalProject.app */,
+				A89FEF78268BBF7B009DF11B /* ALEXA SproutAppFinalProjectTests.xctest */,
+				A89FEF83268BBF7B009DF11B /* ALEXA SproutAppFinalProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,11 +119,12 @@
 				A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */,
 				A89FEF66268BBF7A009DF11B /* ViewController.swift */,
 				A89FEF68268BBF7A009DF11B /* Main.storyboard */,
+				8FA7AF92268EB8D400DBE72C /* MainScreenViewController.swift */,
 				A89FF057268E5E27009DF11B /* menuTableViewCell.swift */,
 				A89FF04F268E459E009DF11B /* SideMenuViewController.swift */,
 				A89FF051268E45B0009DF11B /* MainViewController.swift */,
 				8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */,
-				8F30AB43268CE0C00058ECC2 /* UserProfile.swift */,
+				8F30AB43268CE0C00058ECC2 /* GlobalVariables.swift */,
 				8F30AB41268CDEB80058ECC2 /* EnterNameViewController.swift */,
 				A89FEF6E268BBF7B009DF11B /* Assets.xcassets */,
 				A89FEF70268BBF7B009DF11B /* LaunchScreen.storyboard */,
@@ -152,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A89FEF5E268BBF7A009DF11B /* sproutAppFinalProject */ = {
+		A89FEF5E268BBF7A009DF11B /* ALEXA SproutAppFinalProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A89FEF8C268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "sproutAppFinalProject" */;
+			buildConfigurationList = A89FEF8C268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "ALEXA SproutAppFinalProject" */;
 			buildPhases = (
 				A89FEF5B268BBF7A009DF11B /* Sources */,
 				A89FEF5C268BBF7A009DF11B /* Frameworks */,
@@ -164,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = sproutAppFinalProject;
+			name = "ALEXA SproutAppFinalProject";
 			productName = sproutAppFinalProject;
-			productReference = A89FEF5F268BBF7A009DF11B /* sproutAppFinalProject.app */;
+			productReference = A89FEF5F268BBF7A009DF11B /* ALEXA SproutAppFinalProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A89FEF77268BBF7B009DF11B /* sproutAppFinalProjectTests */ = {
+		A89FEF77268BBF7B009DF11B /* ALEXA SproutAppFinalProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A89FEF8F268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "sproutAppFinalProjectTests" */;
+			buildConfigurationList = A89FEF8F268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "ALEXA SproutAppFinalProjectTests" */;
 			buildPhases = (
 				A89FEF74268BBF7B009DF11B /* Sources */,
 				A89FEF75268BBF7B009DF11B /* Frameworks */,
@@ -182,14 +185,14 @@
 			dependencies = (
 				A89FEF7A268BBF7B009DF11B /* PBXTargetDependency */,
 			);
-			name = sproutAppFinalProjectTests;
+			name = "ALEXA SproutAppFinalProjectTests";
 			productName = sproutAppFinalProjectTests;
-			productReference = A89FEF78268BBF7B009DF11B /* sproutAppFinalProjectTests.xctest */;
+			productReference = A89FEF78268BBF7B009DF11B /* ALEXA SproutAppFinalProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A89FEF82268BBF7B009DF11B /* sproutAppFinalProjectUITests */ = {
+		A89FEF82268BBF7B009DF11B /* ALEXA SproutAppFinalProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A89FEF92268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "sproutAppFinalProjectUITests" */;
+			buildConfigurationList = A89FEF92268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "ALEXA SproutAppFinalProjectUITests" */;
 			buildPhases = (
 				A89FEF7F268BBF7B009DF11B /* Sources */,
 				A89FEF80268BBF7B009DF11B /* Frameworks */,
@@ -200,9 +203,9 @@
 			dependencies = (
 				A89FEF85268BBF7B009DF11B /* PBXTargetDependency */,
 			);
-			name = sproutAppFinalProjectUITests;
+			name = "ALEXA SproutAppFinalProjectUITests";
 			productName = sproutAppFinalProjectUITests;
-			productReference = A89FEF83268BBF7B009DF11B /* sproutAppFinalProjectUITests.xctest */;
+			productReference = A89FEF83268BBF7B009DF11B /* ALEXA SproutAppFinalProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A89FEF5A268BBF7A009DF11B /* Build configuration list for PBXProject "sproutAppFinalProject" */;
+			buildConfigurationList = A89FEF5A268BBF7A009DF11B /* Build configuration list for PBXProject "ALEXA SproutAppFinalProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A89FEF5E268BBF7A009DF11B /* sproutAppFinalProject */,
-				A89FEF77268BBF7B009DF11B /* sproutAppFinalProjectTests */,
-				A89FEF82268BBF7B009DF11B /* sproutAppFinalProjectUITests */,
+				A89FEF5E268BBF7A009DF11B /* ALEXA SproutAppFinalProject */,
+				A89FEF77268BBF7B009DF11B /* ALEXA SproutAppFinalProjectTests */,
+				A89FEF82268BBF7B009DF11B /* ALEXA SproutAppFinalProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,8 +288,9 @@
 				A89FEF6D268BBF7A009DF11B /* sproutAppFinalProject.xcdatamodeld in Sources */,
 				A89FEF63268BBF7A009DF11B /* AppDelegate.swift in Sources */,
 				8F30AB46268CE0FC0058ECC2 /* TimerViewController.swift in Sources */,
-				8F30AB44268CE0C00058ECC2 /* UserProfile.swift in Sources */,
+				8F30AB44268CE0C00058ECC2 /* GlobalVariables.swift in Sources */,
 				A89FF052268E45B0009DF11B /* MainViewController.swift in Sources */,
+				8FA7AF93268EB8D400DBE72C /* MainScreenViewController.swift in Sources */,
 				8F30AB42268CDEB80058ECC2 /* EnterNameViewController.swift in Sources */,
 				A89FEF65268BBF7A009DF11B /* SceneDelegate.swift in Sources */,
 			);
@@ -313,12 +317,12 @@
 /* Begin PBXTargetDependency section */
 		A89FEF7A268BBF7B009DF11B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A89FEF5E268BBF7A009DF11B /* sproutAppFinalProject */;
+			target = A89FEF5E268BBF7A009DF11B /* ALEXA SproutAppFinalProject */;
 			targetProxy = A89FEF79268BBF7B009DF11B /* PBXContainerItemProxy */;
 		};
 		A89FEF85268BBF7B009DF11B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A89FEF5E268BBF7A009DF11B /* sproutAppFinalProject */;
+			target = A89FEF5E268BBF7A009DF11B /* ALEXA SproutAppFinalProject */;
 			targetProxy = A89FEF84268BBF7B009DF11B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -512,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sproutAppFinalProject.app/sproutAppFinalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALEXA SproutAppFinalProject.app/ALEXA SproutAppFinalProject";
 			};
 			name = Debug;
 		};
@@ -533,7 +537,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sproutAppFinalProject.app/sproutAppFinalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALEXA SproutAppFinalProject.app/ALEXA SproutAppFinalProject";
 			};
 			name = Release;
 		};
@@ -578,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A89FEF5A268BBF7A009DF11B /* Build configuration list for PBXProject "sproutAppFinalProject" */ = {
+		A89FEF5A268BBF7A009DF11B /* Build configuration list for PBXProject "ALEXA SproutAppFinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A89FEF8A268BBF7B009DF11B /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A89FEF8C268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "sproutAppFinalProject" */ = {
+		A89FEF8C268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "ALEXA SproutAppFinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A89FEF8D268BBF7B009DF11B /* Debug */,
@@ -596,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A89FEF8F268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "sproutAppFinalProjectTests" */ = {
+		A89FEF8F268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "ALEXA SproutAppFinalProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A89FEF90268BBF7B009DF11B /* Debug */,
@@ -605,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A89FEF92268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "sproutAppFinalProjectUITests" */ = {
+		A89FEF92268BBF7B009DF11B /* Build configuration list for PBXNativeTarget "ALEXA SproutAppFinalProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A89FEF93268BBF7B009DF11B /* Debug */,
