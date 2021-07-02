@@ -27,6 +27,7 @@ class CompleteToDoViewController: UIViewController {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext{
             if let theToDo = selectedToDo{
             context.delete(theToDo)
+            completedTasks += 1
             navigationController?.popViewController(animated: true)
             }
         }

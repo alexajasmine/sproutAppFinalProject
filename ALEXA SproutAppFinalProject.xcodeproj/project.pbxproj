@@ -11,6 +11,8 @@
 		8F30AB44268CE0C00058ECC2 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30AB43268CE0C00058ECC2 /* GlobalVariables.swift */; };
 		8F30AB46268CE0FC0058ECC2 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */; };
 		8FA7AF93268EB8D400DBE72C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA7AF92268EB8D400DBE72C /* MainScreenViewController.swift */; };
+		8FA7AF95268F971900DBE72C /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA7AF94268F971900DBE72C /* AchievementsViewController.swift */; };
+		8FA7AF97268FA1F800DBE72C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA7AF96268FA1F800DBE72C /* ShareViewController.swift */; };
 		A89FEF63268BBF7A009DF11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF62268BBF7A009DF11B /* AppDelegate.swift */; };
 		A89FEF65268BBF7A009DF11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */; };
 		A89FEF67268BBF7A009DF11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEF66268BBF7A009DF11B /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		8F30AB43268CE0C00058ECC2 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		8FA7AF92268EB8D400DBE72C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		8FA7AF94268F971900DBE72C /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		8FA7AF96268FA1F800DBE72C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		A89FEF5F268BBF7A009DF11B /* ALEXA SproutAppFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALEXA SproutAppFinalProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89FEF62268BBF7A009DF11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				A8BDCC9E268ECA4900B53065 /* ToDo.swift */,
 				A89FEF66268BBF7A009DF11B /* ViewController.swift */,
 				A89FEF68268BBF7A009DF11B /* Main.storyboard */,
+				8FA7AF96268FA1F800DBE72C /* ShareViewController.swift */,
+				8FA7AF94268F971900DBE72C /* AchievementsViewController.swift */,
 				8FA7AF92268EB8D400DBE72C /* MainScreenViewController.swift */,
 				A89FF051268E45B0009DF11B /* MainViewController.swift */,
 				8F30AB45268CE0FC0058ECC2 /* TimerViewController.swift */,
@@ -303,7 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA7AF95268F971900DBE72C /* AchievementsViewController.swift in Sources */,
 				A8BDCC9F268ECA4900B53065 /* ToDo.swift in Sources */,
+				8FA7AF97268FA1F800DBE72C /* ShareViewController.swift in Sources */,
 				A8AC3FA2268EDACC0001776F /* MyCollectionViewCell.swift in Sources */,
 				A89FEF67268BBF7A009DF11B /* ViewController.swift in Sources */,
 				A8BDCC9B268EC9D300B53065 /* CompletedToDoViewController.swift in Sources */,
