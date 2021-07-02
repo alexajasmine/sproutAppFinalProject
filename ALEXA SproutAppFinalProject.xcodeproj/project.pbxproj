@@ -23,7 +23,7 @@
 		A89FF050268E459E009DF11B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF04F268E459E009DF11B /* SideMenuViewController.swift */; };
 		A89FF052268E45B0009DF11B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF051268E45B0009DF11B /* MainViewController.swift */; };
 		A89FF058268E5E27009DF11B /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF057268E5E27009DF11B /* menuTableViewCell.swift */; };
-		A8AC3F9E268EDA080001776F /* EntryViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3F9D268EDA080001776F /* EntryViewViewController.swift */; };
+		A8AC3F9E268EDA080001776F /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3F9D268EDA080001776F /* EntryViewController.swift */; };
 		A8AC3FA0268EDA860001776F /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3F9F268EDA860001776F /* Journal.swift */; };
 		A8AC3FA2268EDACC0001776F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3FA1268EDACC0001776F /* MyCollectionViewCell.swift */; };
 		A8AC3FA4268EDB0C0001776F /* NewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3FA3268EDB0C0001776F /* NewCollectionViewController.swift */; };
@@ -74,7 +74,7 @@
 		A89FF04F268E459E009DF11B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		A89FF051268E45B0009DF11B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A89FF057268E5E27009DF11B /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
-		A8AC3F9D268EDA080001776F /* EntryViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewViewController.swift; sourceTree = "<group>"; };
+		A8AC3F9D268EDA080001776F /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		A8AC3F9F268EDA860001776F /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		A8AC3FA1268EDACC0001776F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		A8AC3FA3268EDB0C0001776F /* NewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 				A8AC3FA1268EDACC0001776F /* MyCollectionViewCell.swift */,
 				A8AC3F9F268EDA860001776F /* Journal.swift */,
 				A8AC3FA5268EDB470001776F /* ViewControllerTwo.swift */,
-				A8AC3F9D268EDA080001776F /* EntryViewViewController.swift */,
+				A8AC3F9D268EDA080001776F /* EntryViewController.swift */,
 				A8BDCC9A268EC9D300B53065 /* CompletedToDoViewController.swift */,
 				A8BDCC9C268ECA0A00B53065 /* AddToDoViewController.swift */,
 				A8BDCCA0268ECA7400B53065 /* ToDoTableViewController.swift */,
@@ -314,7 +314,7 @@
 				A8AC3FA2268EDACC0001776F /* MyCollectionViewCell.swift in Sources */,
 				A89FEF67268BBF7A009DF11B /* ViewController.swift in Sources */,
 				A8BDCC9B268EC9D300B53065 /* CompletedToDoViewController.swift in Sources */,
-				A8AC3F9E268EDA080001776F /* EntryViewViewController.swift in Sources */,
+				A8AC3F9E268EDA080001776F /* EntryViewController.swift in Sources */,
 				A8BDCCA1268ECA7400B53065 /* ToDoTableViewController.swift in Sources */,
 				A89FF058268E5E27009DF11B /* menuTableViewCell.swift in Sources */,
 				A89FEF6D268BBF7A009DF11B /* sproutAppFinalProject.xcdatamodeld in Sources */,
@@ -505,6 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H4ACPPZQY;
 				INFOPLIST_FILE = sproutAppFinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H4ACPPZQY;
 				INFOPLIST_FILE = sproutAppFinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
