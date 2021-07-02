@@ -28,7 +28,7 @@ class NewCollectionViewController: UIViewController, UICollectionViewDataSource,
            
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
         cell.myLabel.text = entryArray[indexPath.row].title // The row value is the same as the index of the desired text within the array.
-        cell.backgroundColor = UIColor.white // make cell more visible in our example project
+        cell.backgroundColor = UIColor.gray // make cell more visible in our example project
            
            return cell
        }
@@ -59,7 +59,7 @@ class NewCollectionViewController: UIViewController, UICollectionViewDataSource,
     // change background color back when user releases touch
     func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath)
-        cell?.backgroundColor = UIColor.white
+        cell?.backgroundColor = UIColor.red
     }
     
    }

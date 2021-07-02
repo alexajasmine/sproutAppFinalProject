@@ -9,5 +9,7 @@ import UIKit
 
 class MyCollectionViewCell: UICollectionViewCell {
    //UPDATE***
+    
+    
     @IBOutlet weak var myLabel: UILabel!
 }
