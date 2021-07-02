@@ -755,19 +755,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To-Do List" id="3by-5V-Gvr">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="wiM-fW-Qcv">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="r36-ag-hcc">
-                                <rect key="frame" x="302" y="13" width="92" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="FvG-Cd-bVm">
                             <connections>
-                                <segue destination="PZN-TI-516" kind="show" id="tWj-nc-xMD"/>
+                                <segue destination="PZN-TI-516" kind="show" id="OXG-wC-mrc"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="7fb-xS-Gce" kind="show" id="mcM-r6-ZQp"/>
+                        <segue destination="7fb-xS-Gce" kind="show" identifier="moveToComplete" id="mcM-r6-ZQp"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yy7-4P-zeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1046,7 +1041,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bS5-Ui-WL6">
                                 <rect key="frame" x="20" y="56" width="374" height="752"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.69019607839999997" green="0.76862745099999996" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ng1-rT-8XI">
                                     <size key="itemSize" width="200" height="225"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
