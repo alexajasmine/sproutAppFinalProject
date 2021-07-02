@@ -23,6 +23,11 @@
 		A89FF050268E459E009DF11B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF04F268E459E009DF11B /* SideMenuViewController.swift */; };
 		A89FF052268E45B0009DF11B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF051268E45B0009DF11B /* MainViewController.swift */; };
 		A89FF058268E5E27009DF11B /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF057268E5E27009DF11B /* menuTableViewCell.swift */; };
+		A8AC3F9E268EDA080001776F /* EntryViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3F9D268EDA080001776F /* EntryViewViewController.swift */; };
+		A8AC3FA0268EDA860001776F /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3F9F268EDA860001776F /* Journal.swift */; };
+		A8AC3FA2268EDACC0001776F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3FA1268EDACC0001776F /* MyCollectionViewCell.swift */; };
+		A8AC3FA4268EDB0C0001776F /* NewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3FA3268EDB0C0001776F /* NewCollectionViewController.swift */; };
+		A8AC3FA6268EDB470001776F /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3FA5268EDB470001776F /* ViewControllerTwo.swift */; };
 		A8BDCC9B268EC9D300B53065 /* CompletedToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDCC9A268EC9D300B53065 /* CompletedToDoViewController.swift */; };
 		A8BDCC9D268ECA0A00B53065 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDCC9C268ECA0A00B53065 /* AddToDoViewController.swift */; };
 		A8BDCC9F268ECA4900B53065 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDCC9E268ECA4900B53065 /* ToDo.swift */; };
@@ -69,6 +74,11 @@
 		A89FF04F268E459E009DF11B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		A89FF051268E45B0009DF11B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A89FF057268E5E27009DF11B /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		A8AC3F9D268EDA080001776F /* EntryViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewViewController.swift; sourceTree = "<group>"; };
+		A8AC3F9F268EDA860001776F /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		A8AC3FA1268EDACC0001776F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8AC3FA3268EDB0C0001776F /* NewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionViewController.swift; sourceTree = "<group>"; };
+		A8AC3FA5268EDB470001776F /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		A8BDCC9A268EC9D300B53065 /* CompletedToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedToDoViewController.swift; sourceTree = "<group>"; };
 		A8BDCC9C268ECA0A00B53065 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		A8BDCC9E268ECA4900B53065 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
@@ -125,6 +135,11 @@
 			children = (
 				A89FEF62268BBF7A009DF11B /* AppDelegate.swift */,
 				A89FEF64268BBF7A009DF11B /* SceneDelegate.swift */,
+				A8AC3FA3268EDB0C0001776F /* NewCollectionViewController.swift */,
+				A8AC3FA1268EDACC0001776F /* MyCollectionViewCell.swift */,
+				A8AC3F9F268EDA860001776F /* Journal.swift */,
+				A8AC3FA5268EDB470001776F /* ViewControllerTwo.swift */,
+				A8AC3F9D268EDA080001776F /* EntryViewViewController.swift */,
 				A8BDCC9A268EC9D300B53065 /* CompletedToDoViewController.swift */,
 				A8BDCC9C268ECA0A00B53065 /* AddToDoViewController.swift */,
 				A8BDCCA0268ECA7400B53065 /* ToDoTableViewController.swift */,
@@ -296,19 +311,24 @@
 			files = (
 				A89FF050268E459E009DF11B /* SideMenuViewController.swift in Sources */,
 				A8BDCC9F268ECA4900B53065 /* ToDo.swift in Sources */,
+				A8AC3FA2268EDACC0001776F /* MyCollectionViewCell.swift in Sources */,
 				A89FEF67268BBF7A009DF11B /* ViewController.swift in Sources */,
 				A8BDCC9B268EC9D300B53065 /* CompletedToDoViewController.swift in Sources */,
+				A8AC3F9E268EDA080001776F /* EntryViewViewController.swift in Sources */,
 				A8BDCCA1268ECA7400B53065 /* ToDoTableViewController.swift in Sources */,
 				A89FF058268E5E27009DF11B /* menuTableViewCell.swift in Sources */,
 				A89FEF6D268BBF7A009DF11B /* sproutAppFinalProject.xcdatamodeld in Sources */,
 				A89FEF63268BBF7A009DF11B /* AppDelegate.swift in Sources */,
+				A8AC3FA0268EDA860001776F /* Journal.swift in Sources */,
 				8F30AB46268CE0FC0058ECC2 /* TimerViewController.swift in Sources */,
 				8F30AB44268CE0C00058ECC2 /* GlobalVariables.swift in Sources */,
 				A89FF052268E45B0009DF11B /* MainViewController.swift in Sources */,
 				8FA7AF93268EB8D400DBE72C /* MainScreenViewController.swift in Sources */,
+				A8AC3FA6268EDB470001776F /* ViewControllerTwo.swift in Sources */,
 				8F30AB42268CDEB80058ECC2 /* EnterNameViewController.swift in Sources */,
 				A8BDCC9D268ECA0A00B53065 /* AddToDoViewController.swift in Sources */,
 				A89FEF65268BBF7A009DF11B /* SceneDelegate.swift in Sources */,
+				A8AC3FA4268EDB0C0001776F /* NewCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
